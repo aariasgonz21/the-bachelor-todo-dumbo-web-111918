@@ -15,6 +15,7 @@ def get_contestant_name(data, occupation)
     array.each do |contestant|
       if contestant["occupation"] = occupation
         return contestant["name"]
+      end
     end
   end
 end
