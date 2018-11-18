@@ -13,7 +13,8 @@ end
 def get_contestant_name(data, occupation)
   data.each do |season, array|
     array.each do |contestant|
-    
+      
+    end
   end
 end
 
